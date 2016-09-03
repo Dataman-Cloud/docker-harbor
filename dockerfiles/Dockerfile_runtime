@@ -1,4 +1,4 @@
-FROM offlineregistry.dataman-inc.com/centos7/base:20160325175751
+FROM demoregistry.dataman-inc.com/library/centos7-base:latest
 
 RUN mkdir -p /go/
 ADD ./bin.tar.gz /go/
